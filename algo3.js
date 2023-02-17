@@ -8,4 +8,4 @@ function isDivisibleBy(a, n) {
     }
     return result;
 }
-console.log(isDivisibleBy([1, 3, 15, 6, 3, 6, 7, 4], 2))
+console.log(isDivisibleBy([1, 3, 15, 6, 3, 6, 7, 4], 2));

@@ -14,10 +14,10 @@ filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 */
 
 function filter_list(l) {
-    // Return a new array with the strings filtered out
-    let result = [];
-    l.forEach(el => { if (el === Number(el)) result.push(el); })
-    return result;
+  // Return a new array with the strings filtered out
+  let result = [];
+  l.forEach(el => { if (el === Number(el)) result.push(el); })
+  return result;
 }
 
 console.log(filter_list([1, 2, 'a', 'b'])) // == [1,2]
