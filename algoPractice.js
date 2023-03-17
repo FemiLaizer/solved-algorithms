@@ -16,7 +16,6 @@ function rotateLeft1(arr, n) {
 console.log(rotateLeft1([1, 2, 3, 4], 2));
 
 const distincArray = ["a", 1, 4, "b", 1, "4", 4, "2"];
-
 const newArr = [...new Set(distincArray)];
 console.log(newArr);
 
@@ -39,6 +38,7 @@ function useObject(dis) {
             obj[dis[i]]++;
         }
     }
+    console.log(obj)
     // return Object.values(obj);
     return Object.keys(obj);
 }

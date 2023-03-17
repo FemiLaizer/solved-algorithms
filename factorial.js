@@ -19,3 +19,5 @@ function numberFactorial(number) {
 /* ... Call the function  .... */
 console.log(numberFactorial(8));
 
+// 92971934
+// 07539187
